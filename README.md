@@ -1,31 +1,25 @@
-<h1>TRANSPOSE ANY CHORD CORRECTLY</h1>
+<h1>♮♭♯♫ TRANSPOSE ANY CHORD ♫♯♭♮</h1>
 
 ##  Description
-ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) 
-will take `any chord (even fancy complex jazz chords)`
-and `transpose` it by any `number of steps` with
-the `desired sharp or flat notation`.
 
+ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) will take `any chord (even fancy complex jazz chords)` and `transpose` it by any `number of steps` with the `desired sharp or flat notation`.
 
-`Parameters:`
-    chord: string of the chord, e.g. "C#maj7"
-    transpose_steps: integer (positive or negative), e.g. 1, -4, 2, 0
-    flat_or_sharp: either "♭", "♯" or "flat", "sharp", or "b", "#", or 0, "0"
+## Parameters
 
-If ChordTransposer.transpose(...) is called with only the chord parameter, it will return the chord unchanged.
+`chord`: string of the chord, e.g. "C#maj7"
+`transpose_steps`: integer (positive or negative), e.g. 1, -4, 2, 0
+`flat_or_sharp`: either "♭", "♯" or "flat", "sharp", or "b", "#", or 0, "0", or "♮"
 
-If ChordTransposer.transpose(...) is called with only the chord and transpose_steps parameter, 
-it will return the chord transposed by the number of steps with the same sharp or flat symbol derivation from the original chord.
+► If ChordTransposer.transpose(...) is called with only the chord parameter, it will return the chord unchanged.
+► If ChordTransposer.transpose(...) is called with only the chord and transpose_steps parameter, it will return the chord transposed by the number of steps with the same sharp or flat symbol derived from the original chord.
+► If ChordTransposer.transpose(...) is called with only the chord and flat_or_sharp parameter,it will return the chord adjusted to the desired sharp or flat symbol.
 
-If ChordTransposer.transpose(...) is called with only the chord and flat_or_sharp parameter,
-it will return the chord adjusted to the desired sharp or flat symbol.
+►►► ChordTransposer.transpose(...) will assume, depending on the parameters, whether the second parameter is transpose_steps or flat_or_sharp
 
--> ChordTransposer.transpose(...) will assume, depending on the parameters, whether the second parameter is transpose_steps or flat_or_sharp.
+► ChordTransposer.transpose(...) makes sure, that only the relevant sharp or flat symbol is changed,
+e.g. ChordTransposer.transpose("C♯maj7b5", 2, "#") will return "D#maj7b5" and not "D#maj7#5".
 
-ChordTransposer.transpose(...) makes sure, that only the relevant sharp or flat symbol is changed, 
-e.g ChordTransposer.transpose("C♯maj7b5", 2, "#") will return "D#maj7b5" and not "D#maj7#5".
-
-##  Usage (Also see usage_example.js file):
+##  Usage (Check usage_example.js file):
 ```javascript
 import ChordTransposer from './chord_transposer.js'; 
 
