@@ -3,8 +3,8 @@ import ChordTransposer from './chord_transposer.js';
 /*
 ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) 
 will take any chord (even fancy complex jazz chords)
-and transpose it by any number of steps and
-set the desired sharp or flat symbol to the new chord
+and transpose it by any number of steps with
+the desired sharp or flat notation.
 
 Parameters: 
     chord: string of the chord, e.g. "C#maj7"
