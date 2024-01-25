@@ -1,4 +1,4 @@
-<h1>TRANSPOSE ANY CHORD CORRECTLY<h1>
+<h1>TRANSPOSE ANY CHORD CORRECTLY</h1>
 
 ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) 
 will take any chord (even fancy complex jazz chords)
