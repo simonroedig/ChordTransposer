@@ -1,0 +1,15 @@
+{
+    "name": "every-chord-transposer",
+    "version": "1.0.0",
+    "description": "A module for transposing musical chords",
+    "main": "chord_transposer.js",
+    "type": "module",
+    "scripts": {
+      "start": "node usage_example.js"
+    },
+    "keywords": ["chords", "transpose", "music"],
+    "author": "Simon Rödig",
+    "license": "MIT",
+    "dependencies": {}
+  }
+  
