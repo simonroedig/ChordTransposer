@@ -1,11 +1,13 @@
 <h1>TRANSPOSE ANY CHORD CORRECTLY</h1>
 
+##  Description
 ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) 
-will take any chord (even fancy complex jazz chords)
-and transpose it by any number of steps with
-the desired sharp or flat notation.
+will take `any chord (even fancy complex jazz chords)`
+and `transpose` it by any `number of steps` with
+the `desired sharp or flat notation`.
 
-Parameters: 
+
+`Parameters:`
     chord: string of the chord, e.g. "C#maj7"
     transpose_steps: integer (positive or negative), e.g. 1, -4, 2, 0
     flat_or_sharp: either "♭", "♯" or "flat", "sharp", or "b", "#", or 0, "0"
@@ -23,7 +25,7 @@ it will return the chord adjusted to the desired sharp or flat symbol.
 ChordTransposer.transpose(...) makes sure, that only the relevant sharp or flat symbol is changed, 
 e.g ChordTransposer.transpose("C♯maj7b5", 2, "#") will return "D#maj7b5" and not "D#maj7#5".
 
-Usage (Also see usage_example.js file):
+##  Usage (Also see usage_example.js file):
 ```javascript
 import ChordTransposer from './chord_transposer.js'; 
 
