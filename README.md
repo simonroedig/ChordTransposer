@@ -6,9 +6,9 @@ ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) will take `any 
 
 ## Parameters
 
-`chord`: string of the chord, e.g. "C#maj7"
-`transpose_steps`: integer (positive or negative), e.g. 1, -4, 2, 0
-`flat_or_sharp`: either "♭", "♯" or "flat", "sharp", or "b", "#", or 0, "0", or "♮"
+`chord`: string of the chord, e.g. "C#maj7" <br>
+`transpose_steps`: integer (positive or negative), e.g. 1, -4, 2, 0 <br>
+`flat_or_sharp`: either "♭", "♯" or "flat", "sharp", or "b", "#", or 0, "0", or "♮" <br>
 
 ► If ChordTransposer.transpose(...) is called with only the chord parameter, it will return the chord unchanged. <br>
 ► If ChordTransposer.transpose(...) is called with only the chord and transpose_steps parameter, it will return the chord transposed by the number of steps with the same sharp or flat symbol derived from the original chord. <br>
