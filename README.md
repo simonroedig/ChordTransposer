@@ -4,6 +4,27 @@
 
 ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) will take `any chord (even fancy complex jazz chords)` and `transpose` it by any `number of steps` with the `desired sharp or flat notation`.
 
+## Install
+```
+npm i every-chord-transposer
+
+```
+```
+import ChordTransposer from 'every-chord-transposer/chord_transposer.js';
+
+var transposedChord = ChordTransposer.transpose("Cmaj7b5", 1, "#");
+console.log(transposedChord); // C#maj7b5
+```
+```
+package.json
+{
+  "dependencies": {
+    "every-chord-transposer": "^..."
+  },
+  "type": "module"
+}
+```
+
 ## Parameters
 
 `chord`: string of the chord, e.g. "C#maj7" <br>

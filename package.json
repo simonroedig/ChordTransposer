@@ -5,11 +5,16 @@
     "main": "chord_transposer.js",
     "type": "module",
     "scripts": {
-      "start": "node usage_example.js"
+        "start": "node usage_example.js"
     },
-    "keywords": ["chords", "transpose", "music"],
+    "keywords": [
+        "chords",
+        "transpose",
+        "music"
+    ],
     "author": "Simon Rödig",
     "license": "MIT",
-    "dependencies": {}
-  }
-  
+    "dependencies": {
+        "every-chord-transposer": "^1.0.0"
+    }
+}

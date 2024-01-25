@@ -1,4 +1,4 @@
-import ChordTransposer from './chord_transposer.js'; 
+import ChordTransposer from "./chord_transposer";
 
 /*
 ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) 
