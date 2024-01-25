@@ -43,6 +43,7 @@ e.g. ChordTransposer.transpose("C♯maj7b5", 2, "#") will return "D#maj7b5" and 
 ##  Usage (Check usage_example.js file):
 ```javascript
 import ChordTransposer from './chord_transposer.js'; 
+// import ChordTransposer from 'every-chord-transposer/chord_transposer.js'; // if installed via npm i every-chord-transposer
 
 // One parameter (chord) -> returns same chord
 var transposedChord = ChordTransposer.transpose("C#");

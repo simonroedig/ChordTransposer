@@ -1,6 +1,6 @@
 {
     "name": "every-chord-transposer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A module for transposing musical chords",
     "main": "chord_transposer.js",
     "type": "module",

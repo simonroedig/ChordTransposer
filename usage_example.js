@@ -1,4 +1,5 @@
-import ChordTransposer from "./chord_transposer";
+import ChordTransposer from "./chord_transposer.js";
+// import ChordTransposer from 'every-chord-transposer/chord_transposer.js'; // if installed via npm i every-chord-transposer
 
 /*
 ChordTransposer.transpose(chord, transpose_steps, flat_or_sharp) 
